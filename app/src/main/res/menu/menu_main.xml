@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.opencvexample.ImageActivity">
+    <item
+        android:id="@+id/action_openGallery"
+        android:orderInCategory="100"
+        android:title="@string/action_OpenGallery"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Normal"
+        android:orderInCategory="200"
+        android:title="@string/action_normal"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Histogram"
+        android:orderInCategory="200"
+        android:title="@string/action_Histogram"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_resize"
+        android:orderInCategory="300"
+        android:visible="false"
+        android:title="@string/action_resize"/>
+    <item
+        android:id="@+id/action_gaussian"
+        android:orderInCategory="400"
+        android:visible="false"
+        android:title="@string/action_gaussian"/>
+    <item
+        android:id="@+id/action_binary"
+        android:orderInCategory="500"
+        android:visible="false"
+        android:title="@string/action_binary"/>
+    <item
+        android:id="@+id/action_adaptive"
+        android:orderInCategory="500"
+        android:visible="false"
+        android:title="@string/action_adaptive"/>
+    <item
+        android:id="@+id/action_canny"
+        android:orderInCategory="600"
+        android:visible="false"
+        android:title="@string/action_canny"/>
+    <item
+        android:id="@+id/action_mask"
+        android:orderInCategory="600"
+        android:visible="false"
+        android:title="@string/action_mask"/>
+</menu>

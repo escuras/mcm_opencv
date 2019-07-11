@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">OpencvExample</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_color_detect">ColorDetectActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="ColorDetect">Color detect</string>
+    <string name="FaceDetect">Face detect</string>
+    <string name="HandsDetect">Hands detect</string>
+    <string name="blurText">Blur</string>
+    <string name="effects">Effects</string>
+    <string name="native_code">Native Code (ndk)</string>
+    <string name="CoinsDetect">Coins Detect</string>">
+    <string name="images">Images</string>
+    <string name="opencv_examples">OpenCv Examples</string>
+    <string name="action_OpenGallery">Files</string>
+    <string name="action_Histogram">Histogram</string>
+    <string name="coins">Coin detect</string>
+    <string name="action_normal">Normal</string>
+    <string name="action_resize">Resize</string>
+    <string name="action_gaussian">Gaussian</string>
+    <string name="action_binary">Binary image</string>
+    <string name="action_adaptive">Adaptive Thresholding</string>
+    <string name="action_canny">Canny</string>
+    <string name="action_mask">Mask</string>
+    <string name="gaussian_blur">Gaussian blur</string>
+    <string name="median_blur">Median blur</string>
+</resources>
