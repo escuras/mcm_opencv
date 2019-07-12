@@ -19,7 +19,7 @@ imagem.
 
 2.Extrair o sdk do ficheiro zip para um local à vossa escolha. Eu usei a pasta Android. 
 
-![Pasta android] (imagens/pastaandroid.png)
+![Pasta android] (imagens/pastandroid.jpg)
 
 3.Iniciar um novo projeto no Android studio.
 
@@ -823,9 +823,9 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         }
     }
 }
-
-
 ```
+
 ##Conclusão
+
 No repositório poderão encontrar outros exemplos, assim como a utilização de código nativo e escreverem as suas próprias funções
 em C++ utilizando para isso o ndk para Android.
