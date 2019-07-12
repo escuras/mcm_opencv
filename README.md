@@ -14,12 +14,11 @@ Por fim fazer uso de um classificador (eyes cascade) para identificar esse objet
 imagem.
 
 ##Instalação
-
 1.Ir até à página https://opencv.org/releases/ e realizar o download do sdk para Android.
 
 2.Extrair o sdk do ficheiro zip para um local à vossa escolha. Eu usei a pasta Android. 
 
-![Pasta android] (imagens/pastandroid.jpg)
+![Pasta android](imagens/pastandroid.jpg)
 
 3.Iniciar um novo projeto no Android studio.
 
