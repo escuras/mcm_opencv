@@ -100,7 +100,7 @@ public class HandsDetectActivity extends AppCompatActivity implements CameraBrid
 
     @Override
     public void onCameraViewStarted(int width, int height) {
-        absoluteHandsSize = (int) (height * 0.4);
+        absoluteHandsSize = (int) (height * 0.2);
         mRgba = new Mat(height, width, CvType.CV_8UC4);
         mRgbaF = new Mat(height, width, CvType.CV_8UC4);
         mRgbaT = new Mat(width, width, CvType.CV_8UC4);
@@ -121,8 +121,10 @@ public class HandsDetectActivity extends AppCompatActivity implements CameraBrid
 
     private Rect[] calculateRectangles(){
         MatOfRect hands = new MatOfRect();
+        Mat grayImage = new Mat();
+        Imgproc.cvtColor(mRgba, grayImage, Imgproc.COLOR_RGB2GRAY);
         if (cascadeClassifier != null) {
-            cascadeClassifier.detectMultiScale(mRgba, hands, 2, 1, 1,
+            cascadeClassifier.detectMultiScale(grayImage, hands, 2, 1, 1,
                     new Size(absoluteHandsSize, absoluteHandsSize), new Size());
         }
         return hands.toArray();

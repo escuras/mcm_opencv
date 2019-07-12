@@ -56,8 +56,8 @@ public class CoinActivity extends AppCompatActivity implements CvCameraViewListe
         mOpenCvCameraView.setVisibility(SurfaceView.VISIBLE);
         mOpenCvCameraView.setCvCameraViewListener(this);
         display = ((WindowManager)getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
-        switchGaussian = (Switch)  findViewById(R.id.switch_Gaussian);
-        switchBlur = (Switch)  findViewById(R.id.switch_blur);
+        switchGaussian = (Switch) findViewById(R.id.switch_Gaussian);
+        switchBlur = (Switch) findViewById(R.id.switch_blur);
         addEvents();
     }
 
