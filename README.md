@@ -627,7 +627,7 @@ private Rect[] calculateRectangles(){
         }
         retur
 ```
-O código final ficou assim, deta forma.
+O código final ficou desta forma.
 ```Java
 
 import android.Manifest;
@@ -825,5 +825,5 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
 
 ## Conclusão
 
-No repositório poderão encontrar outros exemplos, assim como a utilização de código nativo e escreverem as suas próprias funções
+No repositório poderão encontrar outros exemplos, assim como a utilização de código nativo para escreverem as suas próprias funções
 em C++ utilizando para isso o ndk para Android.
