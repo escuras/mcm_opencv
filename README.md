@@ -13,7 +13,7 @@ os métodos fundamentais de manipulação e uso da bilblioteca.
 Por fim fazer uso de um classificador (eyes cascade) para identificar esse objeto numa 
 imagem.
 
-##Instalação
+## Instalação
 1.Ir até à página https://opencv.org/releases/ e realizar o download do sdk para Android.
 
 2.Extrair o sdk do ficheiro zip para um local à vossa escolha. Eu usei a pasta Android. 
@@ -68,8 +68,7 @@ sourceSets {
 ```
 12.Se tudo correr bem estamos prontos a correr a nossa aplicação com OpenCV.
 
-##   Preparar a Câmara
-
+## Preparar a Câmara
 1.Precisamos pedir permissões para o uso da câmara, para isso vamos até ao ficheiro AndroidManifest.xml em manifests e adicionamos algo como:
 
     <uses-permission android:name="android.permission.CAMERA"/>
@@ -454,7 +453,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
 ```
 8.Fazendo o build e executar a aplicação, estamos prontos a usar a câmara através de objetos OpenCV.
 
-##Cascade classifier
+## Cascade classifier
 
 1.Fazer o download do ficheiro xml em https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_eye.xml.
 
@@ -559,7 +558,7 @@ linha e o tipo de linha.
     }
 ```
 
-##Rotação da imagem
+## Rotação da imagem
 1.Depois de detestarem o vosso código, pode acontecer que a imagem se encontra numa posição lateral, é necessário, então, fazer a rotação do frame. 
 Para isso criamos 3 variéveis auxiliares e inicializamo-las em **onCameraViewStarted**. Como a seguir:
 ```Java 
@@ -824,7 +823,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
 }
 ```
 
-##Conclusão
+## Conclusão
 
 No repositório poderão encontrar outros exemplos, assim como a utilização de código nativo e escreverem as suas próprias funções
 em C++ utilizando para isso o ndk para Android.
