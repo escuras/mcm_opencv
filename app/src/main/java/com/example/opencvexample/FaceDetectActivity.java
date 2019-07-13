@@ -69,6 +69,7 @@ public class FaceDetectActivity extends Activity
         File cascadeDir = getDir("cascade", Context.MODE_PRIVATE);
         cascadeClassifier = CascadeHelper.initializeOpenCVDependencies(is, cascadeDir,
                 "lbpcascade_frontalface.xml");
+        MatOfFloat dd;
     }
 
     @Override

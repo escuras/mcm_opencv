@@ -141,7 +141,7 @@ public class ImageActivity extends AppCompatActivity {
             return true;
         } else if(id == R.id.action_resize) {
             Mat resizedImage = new Mat();
-            Size size=new Size(40,40);
+            Size size = new Size(40,40);
             Imgproc.resize(simpleImage, resizedImage, size);
             displayImage(resizedImage);
             return true;

@@ -137,9 +137,9 @@ public class MainActivity extends AppCompatActivity {
 JavaCameraView é um objeto OpenCV que nos permite manipular e apresentar os resultados do processamento da imagem.
 
 4.Estamos prontos! Na nossa MainActivity.java vamos implementar a interface CvCameraViewListener2. Sendo necessário implementar as funções:
-** onCameraViewStarted **
-** onCameraViewStopped **
-** onCameraFrame **
+**onCameraViewStarted**
+**onCameraViewStopped**
+**onCameraFrame**
 
 ```Java
 
