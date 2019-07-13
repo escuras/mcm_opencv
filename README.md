@@ -187,7 +187,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
 }
 ```
 5.Precisamos inicializar o OpenCV Manager que tem a função de fazer a ligação entre o código JAVA e as bibliotecas nativas. Para isso, 
-usamos um BaseLoaderCallback que tem a função de saber se este está instalado ou não no nosso dispositivo . Caso não o encontre, 
+usamos um BaseLoaderCallback que tem a função de saber se o OpenCv manager está instalado ou não no nosso dispositivo . Caso não o encontre, 
 tenta fazer o donwload para o nosso aparelho.
 
 ![Importação do módulo](imagens/AndroidAppUsageModel.png)
